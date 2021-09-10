@@ -95,9 +95,10 @@ section {
     width: .5vw;
     height: 80vh;
     margin-top: 15vh;
-    background: linear-gradient( rgba(255,255,255,0) 0%, rgba(255,255,255,1) 50%, rgba(255,255,255,0) 100%);
+    /* background: linear-gradient( rgba(255,255,255,0) 0%, rgba(255,255,255,1) 50%, rgba(255,255,255,0) 100%); */
     position: fixed;
     left: 49.75vw;
+    background: linear-gradient( rgba(0,0,0,0) 0%, rgba(12,39,49,1) 50%, rgba(0,0,0,0) 100%);
 }
 
 h2 {
@@ -204,6 +205,7 @@ a:visited {
 }
 .contactLinks {
     height: 5vh;
+    margin-bottom: 4vh;
 }
 .contactLinks img {
     width: 5vw;
