@@ -46,6 +46,7 @@ li {
     font-size: 30px;
     color: white;
     opacity: .5;
+    cursor: pointer;
 }
 
 p {
