@@ -1,9 +1,15 @@
 
+
 body {
     background-color: grey;
     height: auto;
     display: flex;
     justify-content: space-between;
+}
+
+#logo {
+    width: 10vw;
+    font-family: 'Caveat Brush', cursive;
 }
 
 #navBar {
@@ -15,16 +21,12 @@ body {
     align-items: center;
     background-color: grey;
 }
-/* #navBar>*:first-child {
-    
-} */
-#logo {
-    width: 10vw;
-}
+
 #menu {
     display: flex;
     width: 50vw;
     justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
 }
 
 #menu li:hover {
@@ -43,6 +45,10 @@ li {
     font-size: 30px;
     color: white;
     opacity: .5;
+}
+
+p {
+    font-family: 'Source Sans Pro' , sans-serif;
 }
 
 .panels {
@@ -95,18 +101,28 @@ section {
 h2 {
     font-size: 50px;
     color: black;
+    font-family: 'Poppins', sans-serif;
 }
 
 #aboutMe {
     display: flex;
     align-items: center;
+    flex-direction: column;
     justify-content: space-around;
     /* border: 2px solid black; */
 }
 
-#myImg {
-    width: 30%;
+h4 {
+    font-family: 'Source Sans Pro' , sans-serif;
+    font-size: 2.5vh;
+
 }
+#aboutMe img {
+    border-radius: 100%;
+    width: 10vw;
+    margin-bottom: 5vh;
+}
+
 
 .techImg {
     width: 6vw;
@@ -152,6 +168,7 @@ h2 {
 
 .desc {
     margin-top: 3vh;
+    font-family: 'Source Sans Pro' , sans-serif;
 }
 
 h3 {
@@ -165,4 +182,36 @@ a:visited {
 
 .project:hover {
     background: gray
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#contactHeader {
+    display: flex;
+    justify-content: center;
+}
+
+#contactContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.contactLinks {
+    height: 5vh;
+}
+.contactLinks img {
+    width: 5vw;
+    
+}
+
+.grow { 
+    transition: all .2s ease-in-out; 
+}
+
+.grow:hover { 
+    transform: scale(1.1); 
 }
