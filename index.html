@@ -4,9 +4,80 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zach's portfolio site</title>
+    <title>Zach King</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Zach King</h1>
+    <nav id="navBar">
+        <div id="logo">
+            <h1>ZK</h1>
+        </div>
+
+        <ul id="menu">
+            <li>About</li>
+            <li>Skills</li>
+            <li>Projects</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+
+   <div class="panels">
+       <section id="about">
+            <h2>About Me</h2>
+                <div id="aboutMe">
+                    <p>I like web dev</p>
+                    <img id="myImg" src="https://c.tenor.com/KBnATdctL1MAAAAC/jujutsu-kaisen-jujutsu-kaisen-dance.gif">
+                </div>
+       </section>
+       <section id="projects">
+            <div id="projectsHeader">
+                <h2>Projects</h2>
+            </div>
+            <div id="projectContainer">
+                <a class="project" href="https://pokedex-zk.herokuapp.com/" target="_blank">
+                <img id="pokemonApp" src="/photos/pokemonAppScrnsht.png">
+                <div class="desc">
+                    <h3>Pokémon App</h3>
+                </div>
+            </a>
+            
+            </div>
+       </section>
+   </div>
+   <div id="middleLine"></div>
+   <div class="panels">
+    <section id="skills">
+        <header id="skillsHeader">
+            <h2>Skills</h2>
+        </header>
+        <div>
+            <div class="skillsDiv">
+                <img class="techImg" src="/photos/css.png">
+                <img class="techImg" src="/photos/node.png">
+                <img class="techImg" src="/photos/html.png">
+            </div>
+            <div class="skillsDiv">
+                <p>CSS</p>
+                <p>Node.JS</p>
+                <p>HTML</p>
+            </div>
+            <div class="skillsDiv">
+                <img class="techImg" src="/photos/js.png">
+                <img class="techImg" src="/photos/git.png">
+                <img class="techImg" src="/photos/post.png">
+            </div>
+            <div class="skillsDiv">
+                <p>Javascript</p>
+                <p>GIT</p>
+                <p>PostrgreSQL</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+
+    </section>
+   </div>
 </body>
 </html>
