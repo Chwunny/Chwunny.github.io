@@ -13,14 +13,14 @@ menuAbout.addEventListener('click', () => {
 
 menuSkills.addEventListener('click', () => {
     window.scrollTo({
-        top: 800,
+        top: 700,
         behavior: 'smooth'
     })
 })
 
 menuProjects.addEventListener('click', () => {
     window.scrollTo({
-        top: 1500,
+        top: 1300,
         behavior: 'smooth'
     })
 })
